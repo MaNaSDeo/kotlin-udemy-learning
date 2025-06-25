@@ -36,7 +36,7 @@ In `MainActivity.kt`, there are two `Greeting()` usages that looked similar but 
 
 ---
 
-### 🔭 Need to Look Next Day
+### 🔭 Need to understand in future
 
 - [ ] ❓ **What is Jetpack Compose?**
 
@@ -44,3 +44,22 @@ In `MainActivity.kt`, there are two `Greeting()` usages that looked similar but 
 
 _Commit Date: 📅 `2025-06-24`_
 
+---
+
+# 📘 First Lecture – Day 2 of Kotlin + Android Learning
+
+---
+
+### 📌 Learning 1: Entry Point of the App
+
+The `MainActivity` class (inside `MainActivity.kt`) serves as the **entry point of the entire Android app**. It is where the first screen or UI is rendered using Jetpack Compose.
+
+### 🔭 Need to understand in future
+
+**Understanding `onCreate()`**
+
+```kotlin
+override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    // UI rendering begins here
+}
